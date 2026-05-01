@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fff;
+  color: #333;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.btn {
+  background: gold;
+  padding: 12px 24px;
+  text-decoration: none;
+  color: black;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  padding: 40px;
+  gap: 20px;
+}
+
+.product {
+  border: 1px solid #eee;
+  padding: 20px;
+  transition: 0.3s;
+}
+
+.product:hover {
+  transform: translateY(-5px);
+}
+
+.newsletter {
+  text-align: center;
+  padding: 50px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+}
